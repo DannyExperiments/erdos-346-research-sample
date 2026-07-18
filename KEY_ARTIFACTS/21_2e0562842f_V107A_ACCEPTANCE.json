@@ -1,0 +1,48 @@
+{
+  "project": "346",
+  "integratedAt": "2026-06-28T07:43:07Z",
+  "classification": "EXACT_NEW_WALL",
+  "object": "V107A_CORE_HOLE_THRESHOLD_POSITION_DICHOTOMY_REDUCES_THE_TWO_SIDED_V107_IMPORT_TO_A_SINGLE_DELETION_ROBUST_BLOCK_COMPLETENESS_BRIDGE_BCOMP_BECAUSE_ALL_TAIL_COMPLETENESS_PLUS_B_SUBSET_TAIL_FORCES_EVERY_ABOVE_THRESHOLD_CORE_SUM_HOLE_TO_BE_RESIDUAL_EXTERNAL_ESSENTIAL_IN_FS_TAIL_I_MINUS_FS_B_WHILE_THE_ONLY_MOUNTED_COMPLETENESS_MONOTONICITY_V43_R_M_GE_R_I_IS_SUFFIX_DELETION_SCOPED_AND_DOES_NOT_TRANSFER_ACROSS_INTERIOR_CORE_DELETION_C_TO_C_MINUS_S_SO_ABOVE_THRESHOLD_HOLES_NEED_ONLY_BCOMP_AND_BELOW_THRESHOLD_HOLES_REMAIN_V105Z_V106_IMPORT_ONLY_EXACT_NEW_WALL_V1",
+  "sourceRunDir": "$USER_HOME/packy-fable-ui/projects/346/runs/2026-06-28T07-35-40-338Z-retry-v107a-wallbreaker-boundary-attack-artifact-stream-auth-3fe52057",
+  "cleanResponsePath": "$USER_HOME/packy-fable-ui/projects/346/source_files/V105_SOURCE_ARTIFACTS/fable_exports/PACKY_FABLE_RESPONSE_AFTER_V107A_BCOMP_THRESHOLD_DICHOTOMY_EXACT_NEW_WALL_20260628T074307Z.md",
+  "receiptHashes": {
+    "response.md": "2e548d711a5d00453c4e87b80a4c68dfeba044cbd4f51c372276af1b8e5b916b",
+    "run_result.json": "8567b88dd14443c9ee16f82ee6a70ef4a230aa4114700bc73828d54be670a5e6",
+    "raw_response.json": "d12c254674654d5d4178baa5677e21703892cafd8a99b76918f01924ac1f8eb0",
+    "raw_response.jsonl": "2e025940d4fc8c5f7a66087325872075cfb001777dcffedd968206973a233310",
+    "prompt_sent.md": "8683c4173d537adfb4c8465ba155e451cdc099dd1b4d2f14f28af11976a57544",
+    "input_manifest.json": "78fa27833148a97c2296e48b752e867bdeba7c8d8f88a336c858925396997559"
+  },
+  "conservativeAudit": {
+    "cleanArtifact": true,
+    "contaminationScan": "No ad, TUI, terminal, prompt echo, or receipt junk markers found in response.md.",
+    "noProof": true,
+    "noCounterpacket": true,
+    "noPositiveLemmaB": true,
+    "noUnconditionalBCOMP": true,
+    "bsubStatus": "unverified source-law dependency; do not bank BSUB-dependent claims unconditionally"
+  },
+  "sourceValidDeltas": [
+    {
+      "label": "MOUNTED_COMPLETENESS_MONOTONICITY_IS_SUFFIX_SCOPED_V107A",
+      "status": "BANKABLE_LEMMA",
+      "statement": "Mounted V43 completeness/threshold monotonicity is scoped to suffix passage Tail_m subset Tail_i and does not transfer across interior core deletion C -> C\\S."
+    },
+    {
+      "label": "ABOVE_THRESHOLD_CORE_HOLE_IS_RESIDUAL_EXTERNAL_ESSENTIAL_CONDITIONAL_ON_BSUB_V107A",
+      "status": "CONDITIONAL_BANKABLE_LEMMA",
+      "condition": "BSUB: B=C\\S is contained in the relevant Tail_i source block.",
+      "statement": "Under all-tail completeness plus BSUB, any above-threshold core-sum hole for B is forced into FS(Tail_i) \\ FS(B), i.e. residual-external-essential."
+    },
+    {
+      "label": "V107_TWO_SIDED_IMPORT_FACTORS_THROUGH_BCOMP_ABOVE_THRESHOLD_CONDITIONAL_V107A",
+      "status": "CONDITIONAL_ROUTE_REDUCTION",
+      "condition": "BSUB and threshold-above case.",
+      "statement": "Above-threshold part of the V107 two-sided import reduces to deletion-robust block completeness BCOMP for B=C\\S."
+    }
+  ],
+  "newLiveWall": "BCOMP deletion-robust block completeness for the interior core-deleted residual block B=C\\S, together with a threshold-position dichotomy and verification of BSUB.",
+  "nextObject": "V107B_DECIDE_BCOMP_DELETION_ROBUST_BLOCK_COMPLETENESS_FS_C_MINUS_S_SUPSETEQ_THRESHOLD_INTERVAL_FOR_THE_INDUCED_TYPE_I_BLOCK_OR_PROVE_THE_CORE_HOLE_IS_EVENTUALLY_BELOW_THRESHOLD_VIA_THE_THRESHOLD_POSITION_CHECKER_PLUS_VERIFY_BSUB_AS_A_SOURCE_LAW_V1",
+  "firstFailedClause": "THE_MOUNTED_SOURCE_PROVES_COMPLETENESS_AND_THRESHOLD_MONOTONICITY_ONLY_UNDER_SUFFIX_PASSAGE_TAIL_M_SUBSET_TAIL_I_GIVING_R_M_GE_R_I_AND_HAS_NO_DELETION_ROBUST_BLOCK_COMPLETENESS_BCOMP_FOR_THE_INTERIOR_CORE_DELETED_RESIDUAL_BLOCK_B_EQUALS_C_MINUS_S_SO_WHILE_H1_PLUS_BSUB_FORCES_EVERY_ABOVE_THRESHOLD_CORE_SUM_HOLE_INTO_FS_TAIL_I_MINUS_FS_B_AS_RESIDUAL_EXTERNAL_ESSENTIAL_IT_CANNOT_BE_UPGRADED_TO_A_CONTRADICTION_WITHOUT_BCOMP_AND_BELOW_THRESHOLD_HOLES_REMAIN_V105Z_V106_IMPORT_ONLY",
+  "nextPrompt": "V107B: verify BSUB as a source law, decide/prove/cut BCOMP, and run the threshold-position dichotomy before returning only PROOF, COUNTERPACKET, BANKABLE_LEMMA, ROUTE_CUT, EXACT_NEW_WALL, ROUTE_REFRESH_ONLY, REJECT_PRIOR_BANK, or MALFORMED_PRO_RESPONSE."
+}

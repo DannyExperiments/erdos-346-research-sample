@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "$USER_HOME/.codex/sessions/2026/06/18/rollout-2026-06-18T03-06-26-019ed731-3528-7012-b9a1-d62b16b63de5.jsonl",
+    "sha256": "81d89f0add2c80b79ee1798fc5b53f53d1059717418512115a573abf4e0610c3",
+    "size_bytes": 57356496
+  },
+  "outputs": {
+    "sanitized_jsonl_sha256": "3ba1efc427c81357e1db13f9a0e635f3719b48322adbf34da108ff89e8fdc47f",
+    "sanitized_jsonl_size_bytes": 35622981,
+    "sanitized_gzip_sha256": "6104baf383ed33cff6d7e77b7f7f51724b164863923411a3e0f5cc8eb7c01641",
+    "sanitized_gzip_size_bytes": 10138877,
+    "readable_html_sha256": "2b096e4b57f14da2be61e71e70e1bd5ae33a345482ecaf7e743648cb5664689a",
+    "readable_html_size_bytes": 31011693,
+    "messages_markdown_sha256": "8cb410599d32e9a36387ee91d1f2b272736318c86790ab4c67d2e85525d8694a",
+    "messages_markdown_size_bytes": 1666919
+  },
+  "record_counts": {
+    "session_meta": 1,
+    "event_msg": 3309,
+    "excluded_records": 5398,
+    "response_item": 12839,
+    "turn_context": 524
+  },
+  "redaction_counts": {
+    "pem_private_key": 0,
+    "openai_key": 2,
+    "github_token": 0,
+    "aws_access_key": 0,
+    "slack_token": 0,
+    "jwt": 0,
+    "bearer": 0,
+    "credential_assignment": 61,
+    "sensitive_url_param": 0,
+    "email": 10,
+    "ipv4": 181
+  },
+  "referenced_paths": 7891,
+  "included_key_artifacts": 24,
+  "exclusions": [
+    "internal/encrypted reasoning records",
+    "runtime base instructions and dynamic tool schemas",
+    "token counters, rate-limit telemetry, and world-state records",
+    "credential-shaped strings and direct personal identifiers",
+    "browser, wallet, cookie, keychain, and terminal-ad transcript paths"
+  ]
+}

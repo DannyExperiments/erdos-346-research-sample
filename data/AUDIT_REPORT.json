@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "text_files_scanned": 38,
+  "jsonl_lines": 16673,
+  "response_item_types": {
+    "message": 2051,
+    "function_call": 4946,
+    "function_call_output": 4946,
+    "custom_tool_call": 412,
+    "custom_tool_call_output": 412,
+    "web_search_call": 26,
+    "tool_search_call": 23,
+    "tool_search_output": 23
+  },
+  "tool_call_ids": 5381,
+  "tool_output_ids": 5381,
+  "joined_call_output_ids": 5381,
+  "calls_without_output": 0,
+  "outputs_without_call": 0,
+  "residual_sensitive_pattern_counts": {
+    "personal_home_path": 0,
+    "pem_private_key": 0,
+    "openai_key": 0,
+    "github_token": 0,
+    "aws_access_key": 0,
+    "slack_token": 0,
+    "jwt": 0,
+    "bearer": 0,
+    "email": 0,
+    "ipv4": 0
+  },
+  "failures": []
+}

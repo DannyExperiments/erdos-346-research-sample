@@ -1,0 +1,31 @@
+{
+  "banked_repaired": [
+    "SKELETON_DATA_FORGETS_RESIDUAL_FS_PROFILE_V105F",
+    "ACTIVE_CORE_RECEIVER_NOT_SKELETON_ONLY_V105F",
+    "EXAMPLE_SURVIVOR_BRIDGE_UNDERDETERMINED_REPAIRED_V105F"
+  ],
+  "classification": "EXACT_NEW_WALL",
+  "cleaned_summary_path": "$USER_HOME/erdos_346_manual_packet_after_v105f_20260616T211751Z/MANUAL_RESPONSE_V105F_CLEANED_20260616T211751Z.md",
+  "cuts": [
+    "skeleton-only affine terminal-exit/active-core bridge A+B*3^(-h)",
+    "using V105F skeleton-only bridge failure as proof of #346",
+    "unqualified claim that no bridge can exist at all",
+    "ambient rescaling as proof unless source hypotheses and branch definitions are preserved"
+  ],
+  "first_failed_clause": "NO_BANKED_AUGMENTATION_OF_TYPE_I_BOOLEAN_SKELETON_WITH_RESIDUAL_FS_PROFILE_OR_SCALE_ANCHORED_TYPE_S_ROUTING",
+  "forbidden_upgrades_rejected": [
+    "PROOF",
+    "COUNTERPACKET",
+    "BANKABLE_LEMMA with absolute no-bridge impossibility"
+  ],
+  "integrated_object": "V105F_SKELETON_PROJECTION_FORGETS_RESIDUAL_FS_AND_SCALE_ANCHOR_DATA_EXACT_WALL_V1",
+  "live_wall": "V105G_RESIDUAL_FS_PROFILE_AUGMENTATION_OR_TYPE_I_TO_TYPE_S_ROUTING_OR_REALIZATION_V1",
+  "next_prompt_label": "V105G",
+  "problem_id": "346",
+  "proof_status": "#346 not solved; no counterpacket; no positive Lemma B witness",
+  "raw_attachment": "$USER_HOME/.codex/attachments/f2a30649-5222-4648-9af3-7cedf485b120/pasted-text.txt",
+  "raw_preserved_path": "$USER_HOME/erdos_346_manual_packet_after_v105f_20260616T211751Z/MANUAL_RESPONSE_V105F_RAW_20260616T211751Z.md",
+  "source_kind": "manual_model_test_attachment",
+  "timestamp_utc": "20260616T211751Z",
+  "worker_stated_object": "V105F_SKELETON_BRIDGE_INVARIANCE_AND_AFFINE_SPECIALIZATION_IMPOSSIBILITY_WALL_V1"
+}

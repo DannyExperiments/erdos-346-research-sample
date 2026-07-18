@@ -1,0 +1,66 @@
+{
+  "problem_id": "346",
+  "director_id": "346-director-20260715-v109r1-wave1",
+  "status": "counterexample_banked_for_literal_formulation",
+  "run_dir": "$USER_HOME/ERDOS346_RSI_DIRECTOR/director_runs/346/346-director-20260715-v109r1-wave1",
+  "canonical_packet_paths": [
+    "$USER_HOME/ERDOS346_DOL_ULTRA_V109R1_SOURCE_COMPLETE_PACKET_20260712",
+    "$USER_HOME/Library/Mobile Documents/com~apple~CloudDocs/Documents/erdos-research/problems/0346",
+    "$USER_HOME/ERDOS346_RSI_DIRECTOR/director_runs/346/346-director-20260715-v109r1-wave1/COUNTERPACKET_AUDIT.md",
+    "$USER_HOME/ERDOS346_RSI_DIRECTOR/director_runs/346/346-director-20260715-v109r1-wave1/literature/price_counterexample/main.tex",
+    "$USER_HOME/ERDOS346_RSI_DIRECTOR/director_runs/346/346-director-20260715-v109r1-wave1/literature/price_counterexample/PriceCounterexample.lean"
+  ],
+  "shared_ledger_paths": [
+    "$USER_HOME/ERDOS346_DOL_ULTRA_V109R1_SOURCE_COMPLETE_PACKET_20260712/SOURCE/CORE/CURRENT_PROGRESS_CONTEXT_FOR_V107B.md",
+    "$USER_HOME/ERDOS346_DOL_ULTRA_V109R1_SOURCE_COMPLETE_PACKET_20260712/SOURCE/CORE/ROUTE_BOARD_CURRENT.md"
+  ],
+  "current_theorem_target": "Resolved: the literal convergence-from-hypotheses formulation is false by a counterexample with quotient subsequential limits phi and phi+1/4.",
+  "route_board": {
+    "banked": [
+      "Counterpacket implies the residual Type I profile through the forward reduction.",
+      "Core-hole: z0+r is not in FS(C\\S) for every nonzero r in FS(I).",
+      "H1 covers [R_i,infinity) inclusively on Tail_i.",
+      "V43 threshold monotonicity is suffix-scoped only.",
+      "Finite-deletion low-element capture lemma: a complete finite deletion localizes a representation below w whenever the target block contains every undeleted element at most w.",
+      "Global sparse-deletion dichotomy: tau_A(n) tending to infinity contradicts hypothesis 2.",
+      "Every hypothetical counterexample has bounded pairwise-disjoint moving global transversals after one finite normalization.",
+      "Price counterpacket: H1, H2, ratio gap 6/5, and two distinct quotient subsequential limits.",
+      "Global top-band cap: H3 gives uniformly bounded global transversal and matching numbers."
+    ],
+    "live": [
+      "Optional fresh local Lean kernel replay once a trusted Lean toolchain is available.",
+      "Separate limit-exists interpretation only: audit or present the conditional phi theorem if requested."
+    ],
+    "cut": [
+      "Bounded-block all-tail-completeness misuse.",
+      "pGAP, NUGAP, VALGAP, and TAUGAP forcing.",
+      "Support deletion treated as one-element deletion.",
+      "Local Type I compatibility treated as an original counterpacket.",
+      "Mounted representation repair without a new defect-decreasing exchange law.",
+      "Global transversal or matching growth under H3; the canonical top-band cover is uniformly bounded."
+    ],
+    "hard_wall": [
+      "None for the literal formulation; only optional operational kernel replay remains."
+    ]
+  },
+  "active_subagents": [],
+  "active_pro_tabs": [],
+  "literature_queries": [
+    "https://www.erdosproblems.com/346",
+    "https://www.erdosproblems.com/forum/thread/346",
+    "https://www.overleaf.com/read/tgrrgqpbjpht",
+    "https://github.com/KitaKen1/erdos346-ratio-limit-lean",
+    "https://doi.org/10.1016/0022-314X(81)90036-6"
+  ],
+  "last_heartbeat": "2026-07-15",
+  "next_action": "Stop the positive-proof loop for the literal statement. Preserve the counterpacket and optionally run a fresh local Lean kernel replay when a trusted toolchain is available.",
+  "notify_user_only_if": [
+    "proof",
+    "counterexample",
+    "bankable_lemma",
+    "decisive_route_cut",
+    "new_theorem_sized_wall",
+    "auth_or_tool_blocker",
+    "rate_limit_choice"
+  ]
+}

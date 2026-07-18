@@ -1,0 +1,4 @@
+.DS_Store
+conversation_raw_sanitized.jsonl
+conversation_readable.html
+*.zip

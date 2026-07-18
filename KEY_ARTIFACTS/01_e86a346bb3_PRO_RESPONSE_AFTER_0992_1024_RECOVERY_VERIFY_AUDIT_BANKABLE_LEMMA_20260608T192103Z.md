@@ -1,0 +1,135 @@
+# Pro Response After 0992-1024 Recovery Verify Audit
+
+captured_at_utc: 2026-06-08T19:21:03.348Z
+source_tab_title: 346 Collab - Fresh Pro Boot 346
+source_tab_url: https://chatgpt.com/g/g-p-6a1f5499b4188191b9343f3b1d8f2323-346-collab/c/6a24fb04-3de0-83ec-a539-86c56369584a
+assistant_message_index: 7
+assistant_message_count: 8
+
+## Raw Visible Response
+
+BANKABLE_LEMMA
+
+Can this RECOVERY_VERIFY_AUDIT_PASS be banked as the replacement finite lemma for the interrupted generated [992,1024) object?
+
+Yes.
+
+accepted_object:
+J42_TO_J43_CHUNKED_SECOND_EDGE_FROM_RECURSIVE_J41_FIRST_EDGE_EXTENSION_0992_1024_RECOVERY_VERIFY_AUDIT
+
+accepted_local_classification:
+PARTIAL_J42_TO_J43_SECOND_EDGE_EXTENSION_0992_1024_RECOVERY_VERIFY_AUDIT_PASS
+
+accepted_recovery_provenance:
+recovery_provenance_warning=true
+
+The prior provenance defect is resolved for this bounded object because the audit read the sealed recovery gzip, read all 32 per-source checkpoints, recomputed all 32 sources from Wave821/Wave854 inputs, compared recomputed rows against combined recovery rows and checkpoints, and did not trust recovery summary/progress counters. The source-1009 orphan equality gate is retained only as supporting evidence, not as the sole recovery equivalence proof.
+
+accepted_hashes:
+
+pro_diagnostic_response_sha256=dbe35755451bef06281e6b77a4230032691febfcbfaed489c25056d5636908d6
+
+pro_diagnostic_capture_json_sha256=f32bd0da8d7bc830b6bd88f7117d388156d25650cb35ac397ba5f41e367fa16b
+
+verifier_script_sha256=9c5f6f237ecd02edfde9cfc78609c55a77d7b318040cc5a4e72e1be10b1f82d3
+
+audit_summary_sha256=496d54f361e8b2111c59ae7b2d905f357207c3626046cc17df5442ae94b046c7
+
+manifest_sha256=3b020233ca1291a6a2e61ee28d83d66de16331a7552acef0388db59150c06f10
+
+report_sha256=04554c4f81c5e62650a3f9fb1c783580926e385e276d0c5818c828b74b99a568
+
+accepted_recovery_inputs:
+
+recovery_generator_sha256=67ebee0fa16b47a4c787dfb148ee0bd38b373f70bcd074f562790efdef80c450
+
+recovery_output_sha256=1d6b564436895377e134260a7de23ce16a71612c90565e7f53a3bdc2f27d351c
+
+recovery_summary_sha256=beab0d3b0882058575288f6a251e9034c1e826206b083be1d8ea71b2bd8af1c9
+
+recovery_progress_jsonl_sha256=0d5d96f28bf3f62cb1d42439271d13fe88b0723fcd1f85de40e777fe2c74a5a7
+
+source_1009_orphan_equality_gate=RECOVERY_COMPARE_PASS
+
+source_1009_orphan_sha256=fd13334ec8d918b29325c9dd52972e181036d0e2dc48eda754e53adafaae39fd
+
+accepted_input_hashes:
+
+Wave1109_manifest_sha256=19a2ed1e582678be10bcc71a4fb1efd3aea8e968f5eea348d7e9792bfe71c5d3
+
+Wave854_output_sha256=5d4b64118f9740eff4f2a8bff510701da58e4067748cee322314b8175688b0ca
+
+Wave854_summary_sha256=8e3940d2be9de51c0a9372cb9fdb50b0009f04d50beb1f46095b58d049f70f25
+
+Wave821_manifest_sha256=58c7bba1d3ea6502770f315ad24fb7959560d784df33dcff8cfc6c3a936c5da9
+
+source_cache_sha256=d0c90d9f5c2e1d7593d0067cee8375f7fd254865d219e91c8e3763226cf7ee8b
+
+base_window_sha256=6389ab10ba1246a6e0c5a2c5f6e85541a0ce737fd696356908a763dc58c151b4
+
+upper_window_sha256=02e2270b394150fb6c8cd482580033be5a3b6cb19b9f9aabaa6d9bbafe51bc35
+
+accepted_prior_witness_hashes:
+
+prefix_0000_0992_pro_bank_sha256=823773b720d3a4244802d2062d404e9bb03eba24bbbd5dbda7339d585ad372fc
+
+preflight_0992_1024_script_sha256=9013a50a61a9071658e378148696e8ab449dae4019d01ca7070cc1f842857363
+
+preflight_0992_1024_json_sha256=a7ea1756c6f8296dc306a7979c9f7b226a2c7cdb3fb7eafa8a57dcf3b1253e0a
+
+preflight_0992_1024_contract_sha256=21fbf06ebe095cb5abba1c4db38f294e95edf93af53942c5d7d17ac1f236d6b4
+
+preflight_0992_1024_codex_acceptance_sha256=b60550793406f1ce1c6b32016b13079e1a795c8d1465e2471743d78dd1275a47
+
+accepted_arithmetic:
+
+source_range=[992,1024)
+
+total_rows=848
+
+source_rows=32
+
+chunk_rows=816
+
+total_source_nu_values_processed=2108755072
+
+total_second_edge_chunk_count=816
+
+total_second_edge_target_projected_count_sum=624
+
+source_parent_reference_count_sum=176
+
+candidate_ordinal_count=176
+
+candidate_ordinal_range_union=[[5336,5511]]
+
+batch_coverage_digest_sha256=9f1f2feed2299f5d851dde7a477739eaa722a17ca6a6e193cfa828904adec0df
+
+coverage_effect:
+
+standalone_covered_projected_count=32
+
+standalone_missing_ranges=[[0,992],[1024,7056]]
+
+aggregate_prefix_after_pass=[0,1024)
+
+aggregate_missing_ranges_after_pass=[[1024,7056]]
+
+aggregate_overlap_ranges_after_pass=[]
+
+Is Codex authorized to run only J42_TO_J43_CHUNKED_SECOND_EDGE_FROM_RECURSIVE_J41_FIRST_EDGE_PREFIX_0000_1024_AUDIT?
+
+Yes.
+
+authorized_next_exact_object:
+J42_TO_J43_CHUNKED_SECOND_EDGE_FROM_RECURSIVE_J41_FIRST_EDGE_PREFIX_0000_1024_AUDIT
+
+This authorization is only for the audit-only prefix composition using the Pro-banked [0,992) prefix and this recovered [992,1024) replacement finite lemma with explicit recovery provenance. It does not authorize [1024,1056) preflight or any broader/nonadjacent generation.
+
+Rejection clause
+
+none
+
+negative_boundaries_preserved:
+
+This banks only the bounded recovered finite value-coverage object for [992,1024). It does not bank the [0,1024) prefix audit, full [0,7056) J42-to-J43 coverage, shifted QueryClass closure, phase closure, proof of #346, counterpacket status, raw profile materialization, induction, periodicity, endpoint-only closure, source-placeholder/source-owner/source-authority substitution, larger or nonadjacent generation, dependency installation, or Lean setup.
